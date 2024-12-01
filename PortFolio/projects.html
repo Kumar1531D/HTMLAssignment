@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="projects-preview">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-item">
+                        <img src="Images/Typeracer.webp" alt="Project 1" class="project-image">
+                        <div class="project-content">
+                            <h3>Type Racer Game</h3>
+                            <p>It was the kind of competitive game where you could set up individual rooms and
+                                compete against other clients. WPM (words per minute) and real-time progress
+                                will be displayed to the clients in the same room, and the result will be displayed.
+                                To manage the clients, I was utilizing my own customized websocket handler and
+                                HTTP server. Upon receiving the request from the client to join the room, a
+                                websocket connection is made to the room. Anyone attempting to join the game
+                                can then enter the room password and be added to the room. The game will begin
+                                when all players push the ready button</p>
+                            <a href="https://github.com/yourusername/project1" target="_blank" class="view-btn">View on GitHub</a>
+                        </div>
+                    </div>
+            
+                    <div class="project-item">
+                        <img src="Images/LibraryMangementSystem.webp" alt="Project 2" class="project-image">
+                        <div class="project-content">
+                            <h3>Library Management System</h3>
+                            <p>The user can retrieve and see the available books, making this essentially a basic
+                                library system. In this project, two different kinds of logins are used.(Admin and
+                                User).
+                                The administrator has the option to add new books to the database or delete
+                                existing ones. However, the user can only read and retrieve all of the books that
+                                are stored in the database.
+                                The server is used to retrieve the request and send the response. A lot of servers
+                                are available, but now I am using Tomcat Server for this project, where I can
+                                retrieve the information entered by the user and process the information.</p>
+                            <a href="https://github.com/yourusername/project2" target="_blank" class="view-btn">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+    </div>
+
+    <footer>
+        <p>© 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
